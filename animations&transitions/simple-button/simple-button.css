@@ -1,0 +1,38 @@
+body{
+    background: #ffe137;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+h1{
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+.btn{
+    outline: none;
+    position: relative;
+    background: #fd9925;
+    border: 0;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    font-family: 'Lato';
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 25px 80px;
+    box-shadow: 0 8px #f18911;
+}
+
+.btn:hover{
+    top: 3px;
+    cursor: pointer;
+    box-shadow: 0 5px #f18911;
+}
+
+.btn:active{
+    top: 8px;
+    box-shadow: none;
+}
